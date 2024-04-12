@@ -21,7 +21,6 @@
 }
 .modal__h2 {
   grid-area: title;
-  min-width: 400px;
   width: max-content;
 }
 .modal__close {
@@ -47,8 +46,8 @@
 }
 .modal__picture {
   grid-area: picture;
-  width: 300px;
-  height: 300px;
+  width: 280px;
+  height: 280px;
 }
 .modal__info {
   grid-area: info;
@@ -67,9 +66,11 @@
 .modal__info-color {
   padding: 6px 0 10px 0;
 }
-/* .modal__info-size {}
-.modal__info-send {}
-.modal__info-sites {} */
+.modal__info-size {
+  padding: 6px 0 10px 0;
+}
+/* .modal__info-send {} */
+/* .modal__info-sites {} */
 .modal__info-price {
   font-size: 2rem;
   font-weight: 700;
@@ -97,7 +98,7 @@
   margin-bottom: 15px;
 }
 .modal__info-buy {
-  height: 40px;
+  height: 36px;
   letter-spacing: 0.5px;
   border-radius: 30px;
   font-size: 1.4rem;
