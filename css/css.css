@@ -21,7 +21,6 @@
 }
 .modal__h2 {
   grid-area: title;
-  width: max-content;
 }
 .modal__close {
   grid-area: close;
