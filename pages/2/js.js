@@ -42,9 +42,10 @@ for (let i = 0; i <= clothes.length - 1; i++) {
     close.classList.add("modal__close");
     close.type = "button";
     close.value = "X";
-    close.addEventListener("click", () =>
-      document.querySelector(".modal-background").remove()
-    );
+    close.addEventListener("click", () => {
+      document.querySelector(".modal-background").remove();
+      document.body.style.overflow = "auto";
+    });
     let content = document.createElement("DIV");
     content.classList.add("modal__content");
     let picture = document.createElement("IMG");
