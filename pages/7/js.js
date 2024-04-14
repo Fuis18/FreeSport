@@ -3,16 +3,16 @@
 let form = document.querySelector(".container");
 let fragment = document.createDocumentFragment();
 let clothes = [
-  { src: "r1", mark: "Apl", price: "18", units: "6", color: "Negra", info: "HAND GRIP Negra"},
-  { src: "r2", mark: "Omg", price: "20", units: "6", color: "Blanca", info: "Hand Grip Blanca"},
+  { src: "r1", mark: "Apl", price: "18", units: "6", color: "Negro", info: "HAND GRIP Negra"},
+  { src: "r2", mark: "Omg", price: "20", units: "6", color: "Blanco", info: "Hand Grip Blanca"},
   { src: "g1", mark: "Rby", price: "19", units: "6", color: "Negro", info: "Guantes Deportivos para GYM"},
   { src: "g2", mark: "Jhb", price: "23", units: "6", color: "Rojo", info: "Guantes para entrenar Sport"},
   { src: "b1", mark: "Xam", price: "30", units: "6", color: "Negro", info: "Rodilleras de Protección Negro"},
-  { src: "b2", mark: "Omg", price: "31", units: "6", color: "Azul", info: "Rodillernas Neopreno Caiman"},
-  { src: "w1", mark: "Rby", price: "40", units: "6", color: "Blanca", info: "Casco Rojo Deportiva"},
-  { src: "w2", mark: "Apl", price: "46", units: "6", color: "Blanca", info: "Casco Nergo de velocidad"},
-  { src: "k1", mark: "Jhb", price: "32", units: "6", color: "Negra", info: "Gafas Deportivas Negras"},
-  { src: "k2", mark: "Xam", price: "27", units: "6", color: "Negra", info: "Gafas Deportivas Blancas"},
+  { src: "b2", mark: "Omg", price: "31", units: "6", color: "Negro", info: "Rodillernas Neopreno Caiman"},
+  { src: "w1", mark: "Rby", price: "40", units: "6", color: "Rojo", info: "Casco Rojo Deportiva"},
+  { src: "w2", mark: "Apl", price: "46", units: "6", color: "Negro", info: "Casco Nergo de velocidad"},
+  { src: "k1", mark: "Jhb", price: "32", units: "6", color: "Negro", info: "Gafas Deportivas Negras"},
+  { src: "k2", mark: "Xam", price: "27", units: "6", color: "Blanco", info: "Gafas Deportivas Blancas"},
 ];
 // Funciones
 // Contrucción del titulo de cada boton
